@@ -26,8 +26,7 @@ export class HttpService {
 
   search(userName: string) {
     const params = {
-      q: userName,
-      page: 1
+      q: userName
     };
     
     // Possible nice-to-have improvment -> Pagination
