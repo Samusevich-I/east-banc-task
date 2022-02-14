@@ -1,0 +1,17 @@
+.input {
+  position: fixed;
+  width: 25%;
+  float: left;
+}
+.btn {
+  float: right;
+  margin-right: 0.5em;
+}
+@media only screen and (max-width: 750px) {
+  .input {
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+}

@@ -1,0 +1,8 @@
+<form (ngSubmit)="onClickSearchButton()">
+  <div class="input">
+    <input class="form-control" type="text" placeholder="Search GitHub users.." [(ngModel)]="userName" name="userName" [disabled]="isLoading"/>
+    <button class="btn btn-secondary mt-2 mb-3" type="submit" [disabled]="isLoading">
+      Search
+    </button>
+  </div>
+</form>

@@ -1,0 +1,61 @@
+img {
+  max-width: 7vh;
+}
+.row {
+  margin-left: 0.1em;
+}
+.users {
+  width: 75%;
+  float: right;
+}
+.users a {
+  float: left;
+}
+.table-header {
+  position: fixed;
+  z-index: 1;
+  padding: 0.5em 0 0.5em 0;
+  font-size: medium;
+  font-weight: bolder;
+  background-color: #24292f;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: white;
+  width: 75%;
+}
+.table-body {
+  padding-top: 3em;
+  border-bottom: 2px solid gray;
+  border-left: 2px solid gray;
+}
+.message {
+  color: rgb(46, 41, 41);
+  text-decoration: underline;
+  text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+  .input {
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+  .users {
+    width: 100%;
+  }
+  .table-body {
+    padding-top: 10.5em;
+    border-left: none;
+  }
+  .table-header {
+    position: fixed;
+    z-index: 1;
+    font-size: initial;
+    font-weight: initial;
+    margin: 6em 0 0 0;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 100%;
+  }
+}
